@@ -1,0 +1,11 @@
+.mainPanel {
+    width: 100%; 
+    display: inline;
+    background-color: #e1e2e6;
+    border-radius: 4px;
+    padding:4px;
+    display:block;
+}
+.searchResult {
+    font-weight:bold;
+}
