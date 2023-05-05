@@ -39,7 +39,7 @@ function addDom() {
     imageDigestInput.id = mainId+"ImageDigest";
 
     var searchBtn = document.createElement("button");
-    searchBtn.textContent = "查询";
+    searchBtn.textContent = "Search";
     searchBtn.id = "searchBtn";
 
     var searchResult = document.createElement("span");
@@ -48,7 +48,7 @@ function addDom() {
     searchResult.id = mainId + "searchResult";
 
     var tips = document.createElement("h3");
-    tips.textContent = "ImageDigest:use cmd [docker image inspect --format '{{.RepoDigests}}' gitlab/gitlab-ee:15.8.1-ee.0] get Digest";
+    tips.textContent = "ImageDigest:use cmd [docker image inspect --format '{{.RepoDigests}}' gitlab/gitlab-ee:latest] get Digest";
     // 将元素添加到容器中
     container.appendChild(tips);
     container.appendChild(document.createElement("hr"));
@@ -108,7 +108,7 @@ function query_result(image_name, hash_code) {
           } 
           for (var image of result.images) {
             if (hash_code == digest || hash_code == image.digest) {
-              document.getElementById(mainId + "searchResult").innerText=`查询结果:${image_name}.tag[${result.name}]`;
+              document.getElementById(mainId + "searchResult").innerText=`Result : ${image_name}.tag[${result.name}]`;
               return;
             }
           }
