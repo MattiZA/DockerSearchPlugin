@@ -18,7 +18,7 @@ DockerSearchPlugin, Web Extensions, allows you to find the Tag of an existing im
 
 
  
-## 安装及使用
+## Installation and Usage
 
-- 如何安装和使用，请参考 [Wiki](https://github.com/PegasKing/DockerSearchPlugin/wiki) 的详细说明；
-- 常见问题可 [点这里](https://github.com/PegasKing/DockerSearchPlugin/wiki/frequently-asked-questions) 找到答案；
+- For instructions on how to install and use the plugin, please refer to the detailed instructions in the [Wiki](https://github.com/PegasKing/DockerSearchPlugin/wiki);
+- Answers to common questions can be found [here](https://github.com/PegasKing/DockerSearchPlugin/wiki/frequently-asked-questions).
