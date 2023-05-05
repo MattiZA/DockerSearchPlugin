@@ -49,6 +49,15 @@ function addDom() {
 
     var tips = document.createElement("h3");
     tips.textContent = "ImageDigest:use cmd [docker image inspect --format '{{.RepoDigests}}' gitlab/gitlab-ee:latest] get Digest";
+
+    var alink = document.createElement("a");
+    alink.href = "https://github.com/PegasKing/DockerSearchPlugin";
+    alink.title = "open github project";
+    var img = document.createElement("img");
+    img.src = "https://img.shields.io/badge/Git-wiki-blue";
+    alink.appendChild(img);
+    tips.appendChild(alink);
+
     // 将元素添加到容器中
     container.appendChild(tips);
     container.appendChild(document.createElement("hr"));
