@@ -1,5 +1,5 @@
 <p align="center">
-<img src="https://github.com/pt-plugins/PT-Plugin-Plus/raw/master/public/assets/icon-128.png"><br/>
+<img src="https://github.com/PegasKing/DockerSearchPlugin/blob/main/icons/icon_128.png"><br/>
 <a href="https://github.com/pt-plugins/PT-Plugin-Plus/releases/latest" title="GitHub Releases"><img src="https://img.shields.io/github/release/pt-plugins/PT-Plugin-Plus.svg?label=Latest%20Release"></a>
 <a href="https://github.com/pt-plugins/PT-Plugin-Plus/releases" title="GitHub All Releases"><img alt="Releases" src="https://img.shields.io/github/downloads/pt-plugins/PT-Plugin-Plus/total.svg?label=Downloads"></a>
 <img src="https://img.shields.io/badge/Used-TypeScript%20Vue-blue.svg">
