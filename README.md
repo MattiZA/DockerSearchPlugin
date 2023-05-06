@@ -1,6 +1,6 @@
 <p align="center">
-<img src="https://github.com/PegasKing/DockerSearchPlugin/blob/main/icons/icon_128.png"><br/>
-<a href="https://github.com/PegasKing/DockerSearchPlugin/releases/latest" title="GitHub Releases"><img src="https://img.shields.io/github/release/PegasKing/DockerSearchPlugin.svg?label=Latest%20Release"></a>
+<img src="https://github.com/PegasKing/DockerSearchPlugin/blob/main/icons/icon_128.png"><br/> 
+ <a href="https://github.com/PegasKing/DockerSearchPlugin/releases/latest" title="GitHub Releases"><img src="https://img.shields.io/github/release/PegasKing/DockerSearchPlugin.svg?label=Latest%20Release"></a>
 <a href="https://github.com/PegasKing/DockerSearchPlugin/releases" title="GitHub All Releases"><img alt="Releases" src="https://img.shields.io/github/downloads/PegasKing/DockerSearchPlugin/total.svg?label=Downloads"></a>
 <img src="https://img.shields.io/badge/Used-TypeScript-blue.svg">
 <a href="https://github.com/PegasKing/DockerSearchPlugin/blob/main/LICENSE" title="GitHub license"><img src="https://img.shields.io/github/license/PegasKing/DockerSearchPlugin.svg?label=License" alt="GitHub license"/></a> 
