@@ -1,7 +1,7 @@
 {
   "name": "Docker Image-Search By Digests",
-  "manifest_version": 2,
-  "version": "1.0.2",
+  "manifest_version": 3,
+  "version": "1.0.3",
   "description": "Search Image Tag by Digests",
   "author": "PegasKing",
   "icons": {
@@ -10,7 +10,7 @@
     "48": "icons/icon_48.png",
     "128": "icons/icon_128.png"
   },
-  "browser_action": {
+  "action": {
     "default_icon": {
       "20": "icons/icon_20.png",
       "25": "icons/icon_25.png",
@@ -28,15 +28,14 @@
   ],
   "minimum_edge_version": "37.14316.1000.0",
   "background": {
-    "page": "background.html",
-    "persistent": true
+    "service_worker": "background.html"
   },
   "content_scripts": [
     {
       "matches": [ "https://hub.docker.com/*" ],
       "js": [ "js/add_button.js" ],
       "css": [ "css/DockerImageSearchByDigests.css" ],
-      "run_at": "document_idle"
+      "run_at": "document_end"
     }
   ]
 }
